@@ -5,3 +5,6 @@ docker swarm join --token SWMTKN-1-6ai16gd7yc5snzjq4mcvlx4psn6admwy8faiecsr0m2ak
 
 docker swarm join --token SWMTKN-1-33f1ayu4p8gn6nfv4fqvy7jgy71je09sl09r2tnsbhaa0x9kwc-6lj5q2648guibjmb85onevhne 172.18.5.231:2377
 
+
+kubeadm join 172.20.10.5:6443 --token conoql.slrokd6iy7i3ky2o 
+    --discovery-token-ca-cert-hash sha256:1fce62aa6dafcf531f947cc643af3933b168647801fbe61ed59ff81d605976cf
